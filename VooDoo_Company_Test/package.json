@@ -1,0 +1,22 @@
+{
+  "name": "voodoo-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss ./src/input.css -o ./src/style.css",
+    "prod": "NODE_ENV=production postcss ./src/input.css -o ./src/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.23",
+    "postcss-purgecss": "^5.0.0",
+    "win-node-env": "^0.6.1"
+  }
+}

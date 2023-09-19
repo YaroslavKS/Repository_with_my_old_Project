@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/Logomark.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>VooDoo Test</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body class="bg-backgroundColor">
+
+    <!--Header-->
+    <header>
+        <!--Modal-->
+        <span class="flex w-full bg-white modal mt-(-48) p-3">Successfully signed-up</span>
+
+        <div class="pl-4 sm:pl-12 md:pl-16 pr-4 sm:pr-12 md:pr-16 lg:pr-32 xl:pr-120 py-12 
+        flex flex-row justify-between border-b-2 border-black">
+            <a href="#">
+                <img class="w-32 sm:w-32 md:w-40 lg:w-48 xl:w-52" src="./assets/logo.svg" alt="">
+            </a>
+            <div class="pr-1 sm:pr-4 flex justify-between font-bold items-baseline">
+                <a class="sm:text-sm md:text-base lg:text-lg xl:text-xl about" href="#">About Us</a>
+                <button class="signUp p-1 rounded bg-black text-white hover:bg-emailBtn
+                pl-2 ml-2 sm:text-sm md:text-base lg:text-lg xl:text-xl">Sign-up</button>
+            </div>
+        </div>
+    </header>
+
+    <!--Body-->
+    <section class="mt-24 px-4 sm:px-4 md:px-16 lg:px-32 xl:px-120 text-backgroundColor">
+        <!--Disclouser-->
+        <div class="mx-1 bg-black rounded flex justify-between text-white p-6 disclouser">
+            <aside class="flex justify-between items-baseline">
+                <img src="./assets/alert.svg" alt="alert">
+                <span class="pl-2 font-bold">ALPHA</span>
+            </aside>
+            <div class="flex justify-end w-full items-baseline">
+                <div class="w-full flex flex-col justify-between">
+                    <span class=" ml-5 pr-2">Important info regarding our service</span>
+                    <div class="flex-col disclouser-info hidden">
+                        <div class="h-0.5 bg-backgroundColor my-4"></div>
+                        <span>We're working on a new service to offer you return online goods at a discount near you.</span>
+                        <div class="h-0.5 bg-backgroundColor my-4"></div>
+                        <div class="flex justify-between w-10/12">
+                            <ul class="list-decimal">
+                                <span>Currently</span>
+                                <li class="ml-5">Very limited assortment of items that we reseil</li>
+                                <li class="ml-5">All sorts of product categories</li>
+                                <li class="ml-5">Focus on testing the ordering and pick-up experience</li>
+                            </ul>
+                            <div class="p-7">
+                                <img src="./assets/arrow.svg" alt="arrow">
+                                <img src="./assets/arrow.svg" alt="arrow">
+                                <img src="./assets/arrow.svg" alt="arrow">
+                            </div>
+                            <ul class="list-decimal">
+                                <span>Future</span>
+                                <li class="ml-5">Returned items from other shoppers</li>
+                                <li class="ml-5">Select product categories</li>
+                                <li class="ml-5">Focus on end-to-end service experience</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <img class="down" src="./assets/down.svg" alt="down">
+            </div>
+        </div>
+
+        <!--Cards-->
+        <section>
+            <div class="mt-10 flex justify-center flex-wrap gap-6 card-container"></div>
+        </section>
+    </section>
+
+    <!--Form-->
+    <div class="sm:px-12 xl:px-120 mt-20 flex flex-col items-center">
+        <span class="text-sm sm:text-sm md:text-base lg:text-lg xl:text-xl">Be the first one to know when we launch our beta!</span>
+        <div class="mt-6 mb-20">
+            <div>
+                <input class="w-40 sm:w-56 md:w-64 lg:w-80 xl:w-518 mr-3 p-4" type="email" id="emailInput" placeholder="Email">
+                <button class="p-4 text-black bg-emailBtn rounded text-base font-semibold" id="submitEmail">Sign-up</button>
+            </div>
+            <span class="isValid"></span>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="py-20 px-20 sm:px-32 bg-white border-t-2 border-black
+    flex justify-around flex-col-reverse sm:flex-col-reverse md:flex-row ">
+        <img class="h-24" src="./assets/Logomark.svg" alt="Logomark.svg">
+        <div class="flex flex-col sm:flex-col md:flex-row w-4/5">
+            <ul class="w-full sm:w-1/3 font-bold text-sm">
+                <a href="#"><li class="sm:pb-3 md:pb:5 pb-3">FAQ</li></a>
+                <a href="#"><li class="sm:pb-3 md:pb:5 pb-3">RETURNS</li></a>
+                <a href="#"><li class="sm:pb-3 md:pb:5 pb-3">CONTACT</li></a>
+            </ul>
+            <ul class="w-full md:w-1/3 mt-5 md:mt-0 font-bold text-sm">
+                <a href="#"><li class="md:pb:5 pb-3">TERMS & CONDITIONS</li></a>
+                <a href="#"><li class="md:pb:5 pb-3">PRIVACY POLICY</li></a>
+                <a href="#"><li class="md:pb:5 pb-3">COOKIE POLICY</li></a>
+                <a href="#"><li class="md:pb:5 pb-3">COOKIE SETTINGS</li></a>
+            </ul>
+            <ul class="w-full md:w-1/3 mt-5 md:mt-0 font-bold text-sm">
+                <a href="#"><li class="md:pb:5 pb-3">ABOUT SECOND CHANCE</li></a>
+                <a href="#"><li class="md:pb:5 pb-3">CAREER</li></a>
+                <a href="#"><li class="md:pb:5 pb-3">FACEBOOK</li></a>
+                <a href="#"><li class="md:pb:5 pb-3">INSTAGRAM</li></a>
+            </ul>                
+        </div>
+    </footer>
+
+    <script src="./scripts/disclouser.js"></script>
+    <script src="./scripts/card.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
+ 

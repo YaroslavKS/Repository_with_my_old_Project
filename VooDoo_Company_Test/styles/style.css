@@ -1,0 +1,30 @@
+.card:hover > button {
+    display: block;
+}
+
+.card > button {
+    display: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+/*Track*/
+::-webkit-scrollbar-track{
+  background: #FCF7E6;
+}
+
+/*Handle*/
+::-webkit-scrollbar-thumb{
+  background: #888;
+}
+
+/*Handle on hover*/
+::-webkit-scrollbar-track:hover{
+  background: #FCF7E6;
+}
