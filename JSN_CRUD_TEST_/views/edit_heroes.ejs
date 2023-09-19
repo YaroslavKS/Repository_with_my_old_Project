@@ -1,0 +1,48 @@
+<%- include("layout/header") %>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 mx-auto mt-4">
+            <div class="card shadow">
+                <div class="card-header bg-success">
+                    <h3 class="text-light">Edit Hero (<%= hero.nickname %>)</h3>
+                </div>
+                <div class="card-body p-4">
+                    <form action="/update/<%= hero._id %>" method="post" id="edit-form" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <label for="nickname">Nickname</label>
+                            <input type="text" name="nickname" class="form-control" placeholder="Enter nickname" value="<%= hero.nickname %>" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="real_name">Real Name</label>
+                            <input type="text" name="real_name" class="form-control" placeholder="Enter real name" value="<%= hero.real_name %>" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="origin_description">Origin Description</label>
+                            <input type="text" name="origin_description" class="form-control" placeholder="Enter origin description" value="<%= hero.origin_description %>" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="superpowers">Superpowers</label>
+                            <input type="text" name="superpowers" class="form-control" placeholder="Enter superpowers" value="<%= hero.superpowers %>" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="catch_phrase">Catch Phrase</label>
+                            <input type="text" name="catch_phrase" class="form-control" placeholder="Enter catch phrase" value="<%= hero.catch_phrase %>" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="image" class="form-label">Select Hero Image</label>
+                            <input class="form-control" type="file" name="image" />
+                            <img src="/uploads/<%= hero.image %>" width="100" class="img-thumbnail mt-1">
+                        </div>
+                        <input type="hidden" name="old_image" value="<%= hero.image %>">
+                        <div class="mb-3 d-grid">
+                            <input type="submit" name="submit" value="Update Hero" class="btn btn-success btn-lg" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include("layout/footer") %>

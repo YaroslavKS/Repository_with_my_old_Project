@@ -1,0 +1,54 @@
+<%- include("layout/header") %>
+
+<div class="container">
+    <div class="row my-4">
+        <div class="col-lg-12">
+            <% if (message) { %>
+                <div class="alert alert-dismissible fade show alert-<%= message.type %>"
+                    role="alert">
+                    <button class="btn-close" type="button" data-bs-dismiss="alert" aria-label="Close"></button>
+                    <strong><%= message.message %></strong>
+                </div>
+           <% } %>
+           <div class="table-responsive">
+            <% if (heroes.length > 0) { %>
+                <table class="table table-striped text-center my-3"> 
+                    <thead>
+                        <tr class="table-dark">
+                            <th>ID</th>
+                            <th>Image</th>
+                            <th>Nickname</th>
+                            <th>Real Name</th>
+                            <th>Origin Description</th>
+                            <th>Superpowers</th>
+                            <th>Catch Phrase</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% heroes.forEach((row, index) => { %>
+                            <tr class="align-middle">
+                                <td><%= index + 1 %></td>
+                                <td><img src="<%= row.image %>" width="50" class="img-thumbnail" alt=""></td>
+                                <td><%= row.nickname %></td>
+                                <td><%= row.real_name %></td> 
+                                <td><%= row.origin_description %></td>
+                                <td><%= row.superpowers %></td>
+                                <td><%= row.catch_phrase %></td>
+                                <td>
+                                    <a href="/edit/<%= row._id %>" class="text-success"><i class="fas fa-edit fa-lg mx-1"></i></a>
+                                    <a href="/delete/<%= row._id %>" class="text-danger"><i class="fas fa-trash fa-lg mx-1"></i></a>
+                                </td>
+                            </tr>
+                        <% }) %>
+                    </tbody>
+                 </table>
+            <% } else { %>
+                <h1 class="text-center text-secondary mt-5">No Heroes found in the Database!</h1>
+            <% } %>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include("layout/footer") %>
