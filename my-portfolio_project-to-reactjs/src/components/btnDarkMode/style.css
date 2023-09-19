@@ -1,0 +1,36 @@
+/* Dark Mode Button*/
+
+.dark-mode-btn {
+    order: 1;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: rgb(27, 27, 27);
+    
+}
+
+.dark-mode-btn::before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: var(--white);
+    transition: left 0.35s ease-in;
+}
+
+.dark-mode-btn--active::before {
+    left: 25px;
+}
+
+.dark-mode-btn_icon {
+    position: relative;
+    z-index: 9;
+}
