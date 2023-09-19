@@ -1,0 +1,17 @@
+Hello its a 👋
+
+
+
+
+*{
+    border: 1px solid red;
+}
+
+
+
+font-family: 'Urbanist', sans-serif;
+
+
+padding: 35px 50px;
+border: 1px solid black;
+border-radius: 50px 50px 50px 50px;

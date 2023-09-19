@@ -1,0 +1,95 @@
+.container-everyone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 100px;
+  height: 2500px;
+}
+
+.all-text-container {
+  margin-bottom: 800px;
+}
+
+.image-everyone-1 {
+  position: absolute;
+  top: 50px;
+  right: 200px;
+}
+
+.image-everyone-2 {
+  position: absolute;
+  top: 150px;
+  left: 200px;
+}
+
+.image-everyone-3 {
+  position: absolute;
+  top: 300px;
+  left: 700px;
+}
+
+.header-everyone-text {
+  margin-bottom: 60px;
+  font-size: 110px;
+  font-weight: 600;
+  align-items: center;
+  text-align: center;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.text-everyone-container {
+  margin-right: 900px;
+}
+
+.text-everyone-2 {
+  margin-top: 60px;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(179, 179, 179);
+  font-family: 'Urbanist', sans-serif;
+}
+
+.text-everyone-3 {
+  margin-top: 60px;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.image-everyone-4 {
+  position: absolute;
+  bottom: 1500px;
+  right: 450px;
+}
+
+.image-everyone-5 {
+  position: absolute;
+  right: 1000px;
+  bottom: 1150px;
+}
+
+.image-everyone-6 {
+  position: absolute;
+  left: 220px;
+  bottom: 1000px;
+}
+
+.image-everyone-7 {
+  position: absolute;
+  right: 200px;
+  bottom: 800px;
+}
+
+.image-everyone-8 {
+  position: absolute;
+  left: 500px;
+  bottom: 500px;
+}
+
+.image-everyone-9 {
+  position: absolute;
+  right: 600px;
+  bottom: 200px;
+}

@@ -1,0 +1,22 @@
+@import "../assets/reset.css";
+@import "./homePageStyle/header/navStyle.css";
+@import "./homePageStyle/firstScreen/firstScreenStyle.css";
+@import "./homePageStyle/trustedCompany/trustedCompanyStyle.css";
+@import "./homePageStyle/whatWeDoScreen/whatWeDoScreenStyle.css";
+@import "./homePageStyle/everyoneScreen/everyoneScreenStyle.css";
+@import "./homePageStyle/workWithScreen/workWithScreenStyle.css";
+@import "./homePageStyle/whatsNextScreen/whatsNextScreenStyle.css";
+@import "./homePageStyle/letsTalkScreen/LetsTalkScreenStyle.css";
+@import "./homePageStyle/QR-codeScreen/QR-code.css";
+@import "./homePageStyle/linksScreen/links.css";
+@import "./homePageStyle/footer/footer.css";
+@import "./homePageStyle/videoSpawnScreen/videoSpawnScreen.css";
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap');
+
+
+html, body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

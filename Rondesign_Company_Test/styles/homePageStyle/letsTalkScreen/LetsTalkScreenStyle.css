@@ -1,0 +1,62 @@
+.link-text-LetsTalk {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 159px 0px 0px 250px;
+}
+
+.link-text-1 {
+    margin-bottom: 115px;
+    color: rgb(179, 179, 179);
+    font-size: 32px;
+}
+
+.black-text-LetsTalk {
+    color: rgb(0, 0, 0);
+}
+
+.title-LetsTalk {
+    margin-bottom: 60px;
+    font-size: 100px;
+    font-weight: 600;
+    display: inline-block;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.animated-png-LetsTalk-1 {
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    opacity: 0; /* Початкове значення прозорості */
+    animation: slideIn 1.5s ease-in-out forwards; /* Виклик анімації slideIn */
+}
+
+.animated-png-LetsTalk-2 {
+}
+
+.button-arrow-right {
+    display: inline-block;
+    align-items: center;
+    border-radius: 35%;
+    margin-left: 100px;
+    height: 110px;
+    width: 185px;
+    font-size: 50px;
+}
+
+.button-arrow-right:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+@keyframes slideIn {
+    0% {
+      transform: translateX(-25px); /* Початкова позиція зсуву вліво */
+      opacity: 0; /* Початкове значення прозорості */
+    }
+    100% {
+      transform: translateX(0); /* Кінцева позиція без зсуву */
+      opacity: 1; /* Кінцеве значення прозорості */
+    }
+  }

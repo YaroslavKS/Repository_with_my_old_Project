@@ -1,0 +1,123 @@
+.container-text-workw {
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-head-workw {
+    margin-bottom: 60px;
+    font-size: 100px;
+    font-weight: 600;
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+}
+
+.container-alltext-workw-1 {
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+}
+
+.container-alltext-workw-2 {
+    margin-top: 210px;
+    display: flex;
+    align-items: center;
+}
+
+.first-title-text-container-workw {
+    margin-left: 250px;
+}
+
+.second-title-text-container-workw-1 {
+    margin-left: 150px;
+}
+
+.second-title-text-container-workw-2 {
+    margin-left: 20px;
+}
+
+.header-workw-1 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.header-workw-2 {
+    margin-bottom: 50px;
+    margin-left: 200px;
+    font-size: 90px;
+    font-weight: 600;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.sub-header-workw-1 {
+    line-height: 1.5;
+    margin-top: 53px;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(179, 179, 179);
+    font-family: 'Urbanist', sans-serif;
+}
+
+.sub-header-workw-2 {
+    line-height: 1.5;
+    margin-left: 285px;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(179, 179, 179);
+    font-family: 'Urbanist', sans-serif;
+}
+
+.sub-header-workw-1-highlight {
+    color: black;
+  }
+
+.img-company-workw {
+    margin-left: 200px;
+    margin-bottom: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container-workw-1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #CFDDC4;
+    margin-right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container-workw-2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #CF0A2C;
+    margin-right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vessel-workw {
+    border-radius: 25%;
+    background-color: #CFDDC4;
+}
+
+.huawei-workw {
+    border-radius: 25%;
+    background-color: #CF0A2C;
+}
+
+.logo-description-company-workw {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Urbanist', sans-serif;
+}

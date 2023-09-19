@@ -1,0 +1,84 @@
+/* Заголовок перед картками */
+.image-container-trial {
+  margin-top: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+}
+
+.container-text-whatWeDo {
+  margin-top: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-whatWeDo {
+    margin-bottom: 60px;
+    font-size: 100px;
+    font-weight: 600;
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+}
+
+.text-below-whatWeDo {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(179, 179, 179);
+}
+
+/* Картки */
+.container-cards-whatWeDo {
+    margin-top: 220px;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content-container-cards-whatWeDo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 250px;
+  }
+  
+  .text-container-whatWeDo {
+    padding-right: 200px;
+  }
+  
+  .image-container-cards-whatWeDo {
+    margin-left: 250px;
+  }
+  
+  .title-cards-whatWeDo {
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 60px;
+  }
+  
+  .text-cards-whatWeDo {
+    font-size: 32px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: rgb(179, 179, 179);
+  }
+  
+  .text-cards-whatWeDo-black {
+    color: #000000;
+  }
+  
+  .sub-text-cards-list-whatWeDo {
+    margin-top: 24px;
+    padding-left: 0;
+    line-height: 1.5;
+    font-weight: 400;
+    list-style-type: disc;
+    color: rgb(179, 179, 179);
+  }
+  
+  .sub-text-cards-list-whatWeDo li {
+    margin-bottom: 5px;
+  }
+  

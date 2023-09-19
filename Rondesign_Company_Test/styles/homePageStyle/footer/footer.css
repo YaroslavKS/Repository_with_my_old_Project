@@ -1,0 +1,12 @@
+.footer-homePage {
+    display: inline-block;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    margin-left: 250px;
+}
+
+.link-footer-homePage {
+    margin-left: 20px;
+    font-size: 18px;
+    color: rgb(179, 179, 179);    
+}

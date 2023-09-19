@@ -1,0 +1,54 @@
+.container-FScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 159px 0px 0px 250px;
+}
+
+.title-FScreen {
+  margin-bottom: 60px;
+  font-size: 100px;
+  font-weight: 600;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.animated-png-FScreen {
+  margin-top: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  opacity: 0; /* Початкове значення прозорості */
+  animation: slideIn 1.5s ease-in-out forwards; /* Виклик анімації slideIn */
+}
+
+.sub-text-FScreen {
+  color: rgb(100, 100, 100);
+  margin-bottom: 80px;
+  font-size: 32px;
+}
+
+.image-FScreen {
+  padding-top: 80px;
+  padding-left: 60px;
+  max-width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.image-FScreen.animate-in {
+  transform: scale(2);
+}
+
+.image-FScreen.animate-out {
+  transform: scale(1);
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-25px); /* Початкова позиція зсуву вліво */
+    opacity: 0; /* Початкове значення прозорості */
+  }
+  100% {
+    transform: translateX(0); /* Кінцева позиція без зсуву */
+    opacity: 1; /* Кінцеве значення прозорості */
+  }
+}
